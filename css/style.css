@@ -16,6 +16,10 @@ h1 {
   border-radius: 1px;
 }
 
+#navbar a:hover {
+	background: #786b59;
+}
+
 img {border-radius: 2px;
      margin: 1px
 }
