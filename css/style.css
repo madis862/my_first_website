@@ -3,9 +3,36 @@ h1 {
 	color: grey;
 	font-style: italic;
 	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+body {
+	background-color: grey;
+}
+
+table {
+	border: 1px solid grey;
+	width: 750px;
+	margin: auto;
+	background-color: white;
+}
+
+td {
+	border: 1px solid grey;
+	margin: 0 auto;
+}
+
+.car-name {
+	height: 70px;
+}
+
+#navbar {
+	height: 400px;
 }
 
 #navbar a {
+  display: inline-block;
+  margin: 10px 0;
   background-color: #949494;
   color: #fff;
   padding: 5px;
@@ -20,8 +47,18 @@ h1 {
 	background: #786b59;
 }
 
+#title-img {
+	width: 600px;
+}
+
 img {border-radius: 2px;
      margin: 1px
+	 weight: 600px;
+	 height: 400px;
+}
+
+.description {
+	height: 150px;
 }
 
 p {
